@@ -19,4 +19,9 @@ fun_calcMean <- function(x, remove_na=TRUE){
        means[i] <- mean(x[,i], na.rm=remove_na)
      }
      means
-   }
+}
+
+
+fun_test <- function(x, y){
+  x^2
+}
